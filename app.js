@@ -11,7 +11,8 @@ function fruit(item){
 }
 
 fruit("apple")
-
+console.log(os.freemem())
+console.log(os.getPriority())
 console.log(os.platform())
 console.log(os.hostname())
 console.log(os.cpus())
