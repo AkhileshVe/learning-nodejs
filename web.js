@@ -12,7 +12,7 @@ fs.readFile('Html/web.html','utf-8',(err,data)=>{
         res.end()
         return
     }
-
+res.writeHead(200,{'content-type':'text/html'})
     res.write(data)
     res.end()
 })
