@@ -1,3 +1,5 @@
+// how to get data from form
+
 const http = require('http');
 const fs = require('fs');
 const querystring = require('node:querystring'); 
@@ -63,5 +65,4 @@ res.write("<h1>Your form is sumbitted successfully</h1>")
 //   }
    
 // })
-
 // server.listen(3400)
