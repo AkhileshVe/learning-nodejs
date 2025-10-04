@@ -15,7 +15,7 @@ http.createServer((req, res) => {
         res.write(data)
         res.end("ttjjtt")
     }) 
-    }. kcjxnvkj dnkc
+    }
     else if(req.url == "/home.css"){
           fs.readFile('Html/home.css', "utf-8", (error, data) => {
         if (error) {
