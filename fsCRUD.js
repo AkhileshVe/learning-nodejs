@@ -38,20 +38,20 @@ if (process.argv[2] == "write") {
 }
 else if (process.argv[2] == "read") {
     const name = process.argv[3]
-const data = fs.readFileSync("files/"+name+".txt", "utf-8")
-console.log(data)
+    const data = fs.readFileSync("files/" + name + ".txt", "utf-8")
+    console.log(data)
 }
 else if (process.argv[2] == "update") {
     const name = process.argv[3]
-     const content = process.argv[4]
-const data = fs.appendFileSync("files/"+name+".txt", content)
-const data1 = fs.readFileSync("files/"+name+".txt", "utf-8")
-console.log(data1)
+    const content = process.argv[4]
+    const data = fs.appendFileSync("files/" + name + ".txt", content)
+    const data1 = fs.readFileSync("files/" + name + ".txt", "utf-8")
+    console.log(data1)
 }
 else if (process.argv[2] == "delete") {
     const name = process.argv[3]
-const data = fs.unlinkSync("files/"+name+".txt")
-data
+    const data = fs.unlinkSync("files/" + name + ".txt")
+    data
 }
 
 //---------------------------------------------------
