@@ -19,6 +19,7 @@ const fs = require('fs');
 //Read the files
 const data = fs.readFileSync("files/apple.txt", "utf-8")
 console.log(data)
+//vijaykumar billa karta khulla khulla
 
 //--------------------3-------------------------------
 // Delete text files
