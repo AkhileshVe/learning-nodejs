@@ -29,5 +29,18 @@ http.createServer((req, res) => {
     }
 
 }).listen(3200)
+//     else if (req.url == "/home.css") {
+//         fs.readFile('Html/home.css', "utf-8", (error, data) => {
+//             if (error) {
+//                 res.writeHead(500, { "content-type": "text/css" })
+//                 res.end("<h1>Css not found</h1>")
+//                 return false
+//             }
+//             res.writeHead(200, { "content-type": "text/css" })
+//             res.end(data)
+//         })
+//     }
+
+// }).listen(3200)
 
 
