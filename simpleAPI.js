@@ -17,6 +17,11 @@ place:"bhopal"
 name:"pooja",
 age:39,
 place:"rewa"
+    },
+         {
+name:"ravi",
+age:89,
+place:"satna"
     }
 ];
 
